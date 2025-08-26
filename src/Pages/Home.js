@@ -8,12 +8,10 @@ const Home = () => {
 
   const categories = [
     "allproducts",
-    "flowers",
-    "phone",
-    "books",
-    "cloth",
+    "incomple orders",
+    "all orders",
     "ad",
-    "users",
+    "allusers",
   ];
 
   const styles = {
