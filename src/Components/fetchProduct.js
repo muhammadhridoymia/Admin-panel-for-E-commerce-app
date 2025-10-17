@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function MainContent() {
+function AllProducts() {
   const [products, setProducts] = useState([]);
   const [editingStock, setEditingStock] = useState({}); // { [productId]: number }
 
@@ -124,4 +124,4 @@ function MainContent() {
   );
 }
 
-export default MainContent;
+export default AllProducts;
